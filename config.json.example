@@ -1,0 +1,28 @@
+{
+  "port": 12567,
+  "password": "admin",
+  "token_ttl": 3600,
+  "max_fail": 3,
+  "block_minutes": 30,
+  "check_interval": 40,
+  "switch_fail_count": 5,
+  "ping_hosts": ["www.baidu.com", "1.1.1.1", "114.114.114.114"],
+  "ping_hosts6": ["2400:3200::1", "240c::6666"],
+  "current_index": -1,
+  "networks": [
+    {
+      "ssid": "CMCC-5G",
+      "key": "123456",
+      "encryption": "psk2",
+      "radio": "wifi0",
+      "enabled": true
+    },
+    {
+      "ssid": "iTV-2.4G",
+      "key": "77885566",
+      "encryption": "psk2",
+      "radio": "wifi1",
+      "enabled": true
+    }
+  ]
+}
