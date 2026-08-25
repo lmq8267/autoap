@@ -12,7 +12,7 @@
 [![平台](https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-OpenWrt-0a84ff?style=flat-square)](https://openwrt.org)
 [![架构](https://img.shields.io/badge/%E6%9E%B6%E6%9E%84-aarch64%20%C2%B7%20x86__64%20%C2%B7%20x86%20%C2%B7%20arm%20%C2%B7%20armv7%20%C2%B7%20mips%20%C2%B7%20mipsel-ff9f0a?style=flat-square)](https://github.com/lmq8267/autoap/releases)
 
-[⬇️ 下载最新版](https://github.com/lmq8267/autoap/releases) · [📖 使用说明](README.md#-使用方法) · [🐛 问题反馈](https://github.com/lmq8267/autoap/issues)
+[⬇️ 下载最新版](https://github.com/lmq8267/autoap/releases) · [📖 使用说明](README.md#-使用方法) · [🌐 在线图文教程](https://lmq8267.github.io/autoap/) · [🐛 问题反馈](https://github.com/lmq8267/autoap/issues)
 
 </div>
 
@@ -24,7 +24,7 @@
 |:---:|:---:|:---:|
 | [✨ 功能特性](#-功能特性) | [📸 界面预览](#-界面预览) | [⚙️ 工作原理](#️-工作原理) |
 | [🖥️ 会执行的命令](#️-会执行哪些命令) | [🚀 使用方法](#-使用方法) | [📦 OpenWrt 部署](#-openwrt-详细部署步骤) |
-| [🔁 开机自启动](#-开机自启动procd) | [❓ 常见问题](#-常见问题-faq) | [🐛 问题反馈](#-问题反馈) |
+| [🔁 开机自启动](#-开机自启动procd) | [❓ 常见问题](#-常见问题-faq) | [🌐 在线图文教程](https://lmq8267.github.io/autoap/) |
 
 ---
 
@@ -53,6 +53,14 @@
 ![主页-网络管理与设置](image/主页2.png)
 
 *主页：已保存的中继网络 · 检测参数设置 · 运行日志*
+
+![网络编辑-MAC与主机名伪装](image/伪装.png)
+
+*网络编辑：MAC 伪装 · 主机名伪装*
+
+![已保存的中继网络-二维码分享](image/二维码生成.png)
+
+*已保存的中继网络 · 二维码分享（扫码即可在手机上连接该热点）*
 
 </div>
 
@@ -441,6 +449,6 @@ uci commit && wifi reload && /etc/init.d/firewall reload
 
 **如果这个项目对你有帮助，欢迎点一个 ⭐ Star！**
 
-[⬇️ 下载](https://github.com/lmq8267/autoap/releases) · [📖 返回使用说明](README.md#-使用方法) · [🐛 Issues](https://github.com/lmq8267/autoap/issues)
+[⬇️ 下载](https://github.com/lmq8267/autoap/releases) · [📖 返回使用说明](README.md#-使用方法) · [🌐 在线图文教程](https://lmq8267.github.io/autoap/) · [🐛 Issues](https://github.com/lmq8267/autoap/issues)
 
 </div>
